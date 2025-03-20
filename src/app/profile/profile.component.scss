@@ -1,0 +1,77 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo-container {
+    width: 40%;
+    max-width: 300px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.profile-info {
+    width: 60%;
+    margin: 1em;
+    text-align: center;
+}
+
+.profile-greeting {
+    font-size: 1.5em;
+}
+
+.profile-name {
+    font-size: 3.5em;
+}
+
+.profile-description {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.2);
+    /* Enlarge the icon on hover */
+}
+
+.social-link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    gap: 3em;
+}
+
+.profile-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--font-color);
+    background-color: transparent;
+    border: 2px solid var(--font-color);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-button:hover {
+    background-color: var(--font-color);
+    color: var(--primary-color);
+}

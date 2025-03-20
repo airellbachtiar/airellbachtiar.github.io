@@ -14,6 +14,7 @@ nav {
 
 nav.scrolled {
     background-color: rgba(73, 73, 73, 0.96);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-content {
@@ -25,7 +26,7 @@ nav.scrolled {
 }
 
 .home-link {
-    color: var(--font-color);
+    color: var(--primary-color);
     text-decoration: none;
     font-size: 1.6em;
     font-weight: bold;
@@ -38,7 +39,7 @@ nav.scrolled {
 }
 
 .nav-links a {
-    color: var(--font-color);
+    color: var(--primary-color);
     text-decoration: none;
     font-size: 1.1em;
     transition: color 0.3s ease;

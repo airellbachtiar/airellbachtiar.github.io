@@ -1,12 +1,12 @@
 <nav [ngClass]="{'scrolled': isScrolled}">
     <div class="navbar-content">
-        <a href="#profile" class="home-link">Airell R. Bachtiar</a>
+        <a href="#profile" [class.active]="activeSection === 'profile'" class="home-link">Airell R. Bachtiar</a>
         <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#experiences">Experiences</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#about" [class.active]="activeSection === 'about'">About</a>
+            <a href="#education" [class.active]="activeSection === 'education'">Education</a>
+            <a href="#experiences" [class.active]="activeSection === 'experiences'">Experiences</a>
+            <a href="#projects" [class.active]="activeSection === 'projects'">Projects</a>
+            <a href="#contact" [class.active]="activeSection === 'contact'">Contact</a>
         </div>
     </div>
 </nav>
